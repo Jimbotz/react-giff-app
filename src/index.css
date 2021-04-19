@@ -1,13 +1,46 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    padding:40px;
+}
+
+input{
+    font-size: 1.3rem;
+    width: 100%;
+    color: grey;
+}
+
+.card {
+    align-content: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.card p {
+    padding: 5px;
+    text-align: center;
+}
+
+.card img {
+    max-height: 100%;
+    
+}
+
+.card_grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card:hover {
+    box-shadow: 2px 4px 4px 2px rgb(157, 192, 188);
+    transition: 0.65s;
+}
+
+.idk{
+    height: 100%;
 }
